@@ -1,0 +1,12 @@
+{
+  "name": "iJunior-onepage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/CarolinaBerrafato/iJunior-onepage.git",
+  "author": "Carolina Berrafato <carolberrafato13@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+  "start": "npm install && cd ./client && npm start && cd ../server && node index.js",
+  "install": "cd ./client && npm install && cd ../server && npm install"
+  }
+}
